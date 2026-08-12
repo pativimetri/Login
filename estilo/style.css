@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* mobile first */
+@font-face {
+    font-family: 'creator';
+    src: url(/fonts/creator.otf) format('opentype');
+}
+
+@font-face { 
+    font-family: 'avigea';
+    src: url(/fonts/Avigea.otf) format('opentype');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'creator', sans-serif;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #F7EAE0;
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    background-color: #fdfbf7;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 20px #ddc6b4;
+}
+
+section#login > div#imagem{
+    background: #1D4533 url(/imagens/gatos3.jpg) no-repeat;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+section#login > div#forms{
+    display: block;
+    padding: 18px;
+}
+
+section h1 {
+    font-family: 'avigea', serif;
+    font-weight: normal;
+    font-size: 2em;
+    color: #E98B50;
+}
+
+section#login > div#forms > p{
+    margin-bottom: 15px;
+}
