@@ -3,12 +3,12 @@
 /* mobile first */
 @font-face {
     font-family: 'creator';
-    src: url(/fonts/creator.otf) format('opentype');
+    src: url('../fonts/creator.otf') format('opentype');
 }
 
 @font-face { 
     font-family: 'avigea';
-    src: url(/fonts/Avigea.otf) format('opentype');
+    src: url('../fonts/Avigea.otf') format('opentype');
 }
 
 
@@ -46,7 +46,7 @@ section#login{
 }
 
 section#login > div#imagem{
-    background: #1D4533 url(/imagens/gatos3.jpg) no-repeat;
+    background: #1D4533 url('../imagens/gatos3.jpg') no-repeat;
     height: 250px;
     background-position: center;
     background-size: cover;
