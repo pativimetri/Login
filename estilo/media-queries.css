@@ -5,6 +5,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#login{
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem{
@@ -16,12 +17,32 @@
     section#login > div#forms {
         float: right;
         width: 70%;
+        
     }
+        form > input[type=submit]{
+    width: 45%;
+    margin: auto;
+}
+form > a.butao {
+    width: 45%;
+    margin: auto;
+        margin-top: 8px;
+}
+
+form > div.campo{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 9px;
+}
+div.campo > input{
+    width: 85%;
+}
 }
 
 @media screen and (min-width: 992px){
     section#login{
         width: 950px;
+        height: 350px;
     }
     section#login > div#imagem {
         float: right;
@@ -32,4 +53,27 @@
         float: left;
         width: 50%;
     }
+    form > input[type=submit]{
+    width: 60%;
+    margin: auto;
+
+}
+div#forms > p{
+ margin-bottom: 20px;
+}
+
+form > a.butao {
+    width: 60%;
+     margin: auto;
+    margin-top: 10px;
+}
+div.campo > input{
+    width: 89%;
+    height: 25px;
+}
+form > div.campo{
+    width: 100%;
+    margin-bottom: 10px;
+        margin-top: 5px;
+}
 }
