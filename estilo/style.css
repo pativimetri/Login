@@ -55,16 +55,19 @@ section#login > div#imagem{
 
 section#login > div#forms{
     display: block;
-    padding: 18px;
+    padding: 12px;
 }
 
 section h1 {
     font-family: 'avigea', serif;
     font-weight: normal;
+    text-align: center;
     font-size: 2em;
     color: #E98B50;
+    margin-bottom: 10px;
 }
 
-section#login > div#forms > p{
+div#forms > p{
+    font-size: 0.9em;
     margin-bottom: 15px;
 }
