@@ -2,7 +2,7 @@
 
 /* demais telas */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 640px) and (max-width: 1024px) {
     section#login{
         width: 80vw;
         height: 300px;
